@@ -13,12 +13,14 @@
 /* The blue banner and right-justified icons */
 @import "uconn-banner";
 
+@import "footer";
+
 /* Title of site and local search box */
 @import "site-header";
 
 /* State - Starting to implement SMACSS */
-@import "state";
+/* @import "state"; */
 
 
 /* IE7 Styles */
-@import "ie7";
+/* @import "ie7"; */

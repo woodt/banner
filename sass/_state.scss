@@ -19,9 +19,10 @@ body {
  * At 767px the .span* classes display as a blocks. This positions the 
  * icons absolutely on the page.
  */
+
 #uconn-header-container {
-    .row-fluid {
-        .span4{
+    .row {
+        .col-md-4 {
             @media (max-width: $second) {
                 position: absolute;
                 top: 12.5px;
@@ -49,7 +50,7 @@ body {
         padding-right: 10px;
     }
 
-    div.row-fluid {
+    div.row {
         @media (max-width: $third){
             display:block; /* Break the flex-box layout */
         }
